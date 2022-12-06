@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>${data}</p>
+    <form  action="/storchat" method="post">
+        <input input type="text" name="message">
+        <input type="hidden" name="username" id="id5">
+         <button type="Submit" id="id2">SEND</button>
+     </form>
+         <script> 
+         let nam=document.getElementById('id5');
+                const submit=document.getElementById('id2');
+            submit.addEventListener("click", ()=>{
+            nam.value=localStorage.getItem("name");
+           
+            
+        });
+        </script>
+</body>
+</html>

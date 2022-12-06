@@ -1,0 +1,8 @@
+ ajay:kya hua sanjay"
+"  sanjay:kaise ho ajay bhai"
+"  ajay:mast hu bhai sanjay
+  sanjay=chalo fir milte hai..bhai kabhi
+  ajay=chalo fir bye
+  ajay=aaur btyo
+  sanjay=kya btaau
+ 
